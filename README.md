@@ -15,6 +15,11 @@ PPT : https://www.miricanvas.com/v/12hkct1
 ### 오후 작업
 - 김유준 : flask 강의 및 test
 - 박형진 : 팀원 관리 및 프론트 작업
+- ### 참고 사이트
+- 생활코딩 CSS
+  - https://opentutorials.org/course/3086
+- 생활코딩 flask
+  - https://opentutorials.org/course/4904
 
 ---
 
@@ -25,3 +30,12 @@ PPT : https://www.miricanvas.com/v/12hkct1
 ### 오후 작업
 - 김유준 : 웹 프론트 강의 들으면서 html과 css로 test 웹 페이지 작성
 - 박형진 : Llama2 사용을 위한 우바부가를 통한 모델 다운로드 및 테스트
+### 참고 사이트
+- 생활코딩 CSS
+  - https://opentutorials.org/course/3086
+- OpenAI docs
+  - https://platform.openai.com/docs/api-reference/introduction
+- Llama2 13b GPTQ huggingface
+  - https://huggingface.co/TheBloke/Llama-2-13B-chat-GPTQ
+- ooBabooga github
+  - https://github.com/oobabooga/text-generation-webui
