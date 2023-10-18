@@ -39,3 +39,14 @@ PPT : https://www.miricanvas.com/v/12hkct1
   - https://huggingface.co/TheBloke/Llama-2-13B-chat-GPTQ
 - ooBabooga github
   - https://github.com/oobabooga/text-generation-webui
+
+---
+
+
+## 3일차
+### 오전 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : llama2 모델을 사용하여 학습 및 테스트
+### 오후 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : 우바부가 api 제작 및 테스트
