@@ -1,0 +1,11 @@
+{% if login == True %}
+<h3> 로그인에 성공했습니다. {{username}}님 어서오세요!</h3>
+<a href="{{ url_for('logout') }}">로그아웃</a>
+
+{% else %}
+<form methods="get" id="login" action="{{url_for('login')}}">
+    <input type="id" id="loginId" name="loginId" placeholder="ID">
+    <input type="password" id="loginPw" name="loginPw" placeholder="password">
+    <button type="submit" class="login">로그인</button>
+</form>
+{% endif %}

@@ -1,0 +1,21 @@
+h1 {
+    font-size:45px;
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    padding: 10px;
+}
+#character{
+    border-right: 1px solid gray;
+    width: 250px;
+    height: 80   0px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 25px;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 190px 1fr;
+}
+#hutao, #yue, #megumin{
+    padding: 5px;
+}
