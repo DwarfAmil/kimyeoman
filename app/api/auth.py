@@ -1,0 +1,42 @@
+import bcrypt
+from app.DB.database import userDB
+from fastapi import APIRouter
+
+router = APIRouter()
+
+
+def create_hash(target: str):
+    return bcrypt.hashpw(target.encode("utf-8"), bcrypt.gensalt())
+
+
+@router.post("/sign-up")
+async def sign_up(id: str, password: str):
+    userDB.execute("INSERT INTO user_data VALUES(?, ?, ?)", (id, create_hash(password), create_hash(id + password)))
+    userDB.commit()
+
+    return {"message": "Sign up success"}
+
+
+@router.post("/sign-in")
+async def sign_in(id: str, password: str):
+    cursor = userDB.execute("SELECT * FROM user_data WHERE id=?", (id,)).fetchone()
+
+    is_password_same = bcrypt.checkpw(password.encode("utf-8"), cursor[1])
+
+    if is_password_same:
+        return cursor[2]
+
+
+@router.post("/unregister")
+async def unregister(id: str, password: str):
+    cursor = userDB.execute("SELECT * FROM user_data WHERE id=?", (id,)).fetchone()
+
+    is_password_same = bcrypt.checkpw(password.encode("utf-8"), cursor[1])
+
+    if is_password_same:
+        userDB.execute("DELETE FROM user_data WHERE id=?", (id,))
+        userDB.commit()
+
+        return {"message": "Unregister success"}
+    else:
+        return {"message": "Unregister failed"}

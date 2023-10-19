@@ -37,11 +37,10 @@ PPT : https://www.miricanvas.com/v/12hkct1
   - https://platform.openai.com/docs/api-reference/introduction
 - Llama2 13b GPTQ huggingface
   - https://huggingface.co/TheBloke/Llama-2-13B-chat-GPTQ
-- ooBabooga github
+- oobabooga github
   - https://github.com/oobabooga/text-generation-webui
 
 ---
-
 
 ## 3일차
 ### 오전 작업
@@ -50,3 +49,30 @@ PPT : https://www.miricanvas.com/v/12hkct1
 ### 오후 작업
 - 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
 - 박형진 : 우바부가 api 제작 및 테스트
+### 참고 사이트
+- Llama2 13b GPTQ huggingface
+  - https://huggingface.co/TheBloke/Llama-2-13B-chat-GPTQ
+- oobabooga github
+  - https://github.com/oobabooga/text-generation-webui
+
+---
+
+## 4일차
+### 오전 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : 우바부가 api 제작 및 테스트 / FastAPI 로그인 기능 구현
+### 오후 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : FastAPI 로그인 기능 구현 및 캐릭터 학습
+### 참고 사이트
+- 생활코딩 js
+  - https://opentutorials.org/course/3085
+- 탭 매뉴 만들기 강의
+  - https://www.youtube.com/watch?v=qZzM6tsrADc
+  - https://www.youtube.com/watch?v=JDxIq9LQc90
+- RisuAI
+  - https://risuai.xyz/
+- Llama2 13b GPTQ huggingface
+  - https://huggingface.co/TheBloke/Llama-2-13B-chat-GPTQ
+- oobabooga github
+  - https://github.com/oobabooga/text-generation-webui
