@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+    <head>
+        <title>테스트 에스더</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style_test.css">
+
+    </head>
+    <body>
+        <h1>에스더</h1>
+        <input type="button" value="night" onclick="
+        var target = document.querySelector('body')
+        if(this.value === 'night') {
+            target.style.backgroundColor = 'black';
+            target.style.color = 'white';
+            this.value = 'day'
+        } else {
+            target.style.backgroundColor = 'white';
+            target.style.color = 'black';
+           this.value = 'night'
+        } ">
+        
+        <div id="character">
+    
+                <input type="radio" name="charac" id="hutao01">
+                <label for="hutao01">호두</label><br>
+
+                <input type="radio" name="charac" id="yue01">
+                <label for="yue01">유에</label><br>
+
+                <input type="radio" name="charac" id="megumin01">
+                <label for="megumin01">메구밍</label><br>
+     
+
+            
+                <h2>
+                    캐릭터 이름
+                </h2>
+                <div class="character hutao">대충 메세지1</div>
+                <div class="character yue">대충 메세지2</div>
+                <div class="character megumin">대충 메세지3</div>
+                <input type="text" >
+                <input type="button" value=">">
+            
+           
+        </div>
+        <input type="button" value="night" onclick="
+        if(this.value === 'night') {
+            document.querySelector('body').style.backgroundColor = 'black';
+            document.querySelector('body').style.color = 'white';
+            this.value = 'day'
+        } else {
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('body').style.color = 'black';
+           this.value = 'night'
+        } ">
+    </body>
+</html>

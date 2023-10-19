@@ -1,0 +1,29 @@
+h1 {
+    font-size:45px;
+    border-bottom: 1px solid gray;
+    margin: 0px;
+    padding: 10px;
+}
+#character{
+    border-right: 1px solid gray;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 190px 1fr;
+}
+#hutao01, #yue01, #megumin01{
+    padding: 5px;
+    font-size: 55px;
+}
+
+input[type="radio"] {display:none;}
+input[type="radio"] + label {display: inline-block; padding: 20px; background: #ccc; color: #999; font-size: 14px; cursor: pointer;}
+input[type="radio"]:checked + label {background: #aaa; color: #000;}
+
+.character {width: 500px; height: 600px; background: #aaa; margin:0 ;display:none; float: right;}
+input[id="hutao01"]:checked ~ .hutao {display:block;}
+input[id="yue01"]:checked ~ .yue {display:block;}
+input[id="megumin01"]:checked ~ .megumin {display:block;}
