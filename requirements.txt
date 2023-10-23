@@ -1,4 +1,5 @@
 uvicorn
 fastapi
 bcrypt
-jinja2
+pydantic
+starlette

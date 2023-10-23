@@ -1,6 +1,8 @@
 # kimyeoman (김유준 여친 만들기 프로젝트)
 ---
 PPT : https://www.miricanvas.com/v/12hkct1
+
+[kimyeoman-web (front-end)](https://github.com/DwarfAmil/kimyeoman-web)
 ---
 
 ## 1일차
@@ -76,3 +78,22 @@ PPT : https://www.miricanvas.com/v/12hkct1
   - https://huggingface.co/TheBloke/Llama-2-13B-chat-GPTQ
 - oobabooga github
   - https://github.com/oobabooga/text-generation-webui
+
+---
+
+## 5일차
+### 오전 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : Svelte로 로그인 및 회원가입 페이지 제작
+### 오후 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : Svelte로 로그인 및 회원가입 페이지 제작
+### 참고 사이트
+- 조코딩 js 강의
+  - https://www.youtube.com/watch?v=E-PzX2mKGUQ
+- 유노코딩 js 강의
+  - https://youtube.com/playlist?list=PLFeNz2ojQZjv41Q5cCw8blOpGTTrZS5PU&si=0QNQdnH_ILkmJ9kZ
+- svelte.dev docs
+  - https://svelte.dev/docs
+- svelte.dev repl
+  - https://svelte.dev/repl
