@@ -97,3 +97,28 @@ PPT : https://www.miricanvas.com/v/12hkct1
   - https://svelte.dev/docs
 - svelte.dev repl
   - https://svelte.dev/repl
+- 컬러팔레트
+  - https://coolors.co/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
+
+---
+
+## 6일차
+### 오전 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : DeepL 번역기 api 관련 테스트
+### 오후 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : 병결
+### 참고 사이트
+- 유노코딩 html
+  - https://youtube.com/playlist?list=PLFeNz2ojQZjtQc7mt8E9fNzIh9or34A61&si=81TCzftVe8fpwF8R
+- 유노코딩 css
+  - https://www.youtube.com/playlist?list=PLFeNz2ojQZjuRTQGNUf6ZTz8-YRLgFFvZ
+- MDN
+  - https://developer.mozilla.org/ko/docs/Web/CSS/@import
+- 컬러팔레트
+  - https://coolors.co/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
+- 기술 블로그
+  - https://velog.io/@king/deepl-api
+- DeepL api
+  - https://www.deepl.com/ko/docs-api
