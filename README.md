@@ -122,3 +122,22 @@ PPT : https://www.miricanvas.com/v/12hkct1
   - https://velog.io/@king/deepl-api
 - DeepL api
   - https://www.deepl.com/ko/docs-api
+
+---
+
+## 7일차
+### 오전 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : DeepL 번역기 api 관련 테스트 및 채팅 페이지 테스트
+### 오후 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : 채팅 페이지 제작 및 테스트
+### 참고 사이트
+- 유노코딩 css
+  - https://www.youtube.com/playlist?list=PLFeNz2ojQZjuRTQGNUf6ZTz8-YRLgFFvZ
+- 유노코딩 js 강의
+  - https://youtube.com/playlist?list=PLFeNz2ojQZjv41Q5cCw8blOpGTTrZS5PU&si=0QNQdnH_ILkmJ9kZ
+- 컬러팔레트
+  - https://coolors.co/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
+- DeepL api
+  - https://www.deepl.com/ko/docs-api

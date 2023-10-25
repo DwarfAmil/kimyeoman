@@ -3,10 +3,12 @@ from fastapi import FastAPI, Request
 from starlette.middleware.cors import CORSMiddleware
 
 from app.api.auth import router as auth_router
+from app.api.translate import router as translator_router
 
 app = FastAPI()
 
 app.include_router(auth_router, prefix="/auth", tags=["auth"])
+app.include_router(translator_router, prefix="/translator", tags=["translate"])
 
 app.add_middleware(
     CORSMiddleware,
