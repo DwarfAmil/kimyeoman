@@ -29,7 +29,7 @@
             border-left: 1px solid #ddd;
         }
 
-        .tab_type1 ul li a {
+        /* .tab_type1 ul li a {
             display: block;
             height: 59px;
             border: 1px solid #ddd;
@@ -40,7 +40,7 @@
             text-align: center;
             line-height: 59px;
             text-decoration: none;
-        }
+        } */
 
         .tab_type1 ul li a.on {
             position: relative;
@@ -61,21 +61,46 @@
             background: #5da62b;
             border-top: 2px solid #5da62b;
         }
+        
+        #message {
+            width: 1700px;
+            height: 1100px;
+
+        }
+        #text {
+            grid-template-columns: 150px 1fr;
+        }
+        #c {
+            width: 1600px;
+            height: 700px;
+            border: 1px solid gray;
+        }
     </style>
 </head>
 
 <body>
-    <nav class="tab_type1">
-        <ul>
-            <li><a href="#a">호두</a></li>
-            <li><a href="#a" class="on">유에</a></li>
-            <li><a href="#a">메구밍</a></li>
-            <li><a href="#a">라이덴 쇼군</a></li>
-            <li><a href="#a">감우</a></li>
-            <li><a href="#a">각청</a></li>
+    <div id="character">
+        <nav class="tab_type1">
+            <ul>
+                <li><a href="#a">호두</a></li>
+                <li><a href="#a" class="on">유에</a></li>
+                <li><a href="#a">메구밍</a></li>
+                <li><a href="#a">라이덴 쇼군</a></li>
+                <li><a href="#a">감우</a></li>
+                <li><a href="#a">각청</a></li>
 
-        </ul>
-    </nav>
+            </ul>
+        </nav>
+    </div>
+    <div id=message>
+        <div id="c">
+
+        </div>
+        <div id="text">
+            <input type="text">
+            <input type='button' value=">">
+        </div>
+    </div>
 </body>
 
 </html>

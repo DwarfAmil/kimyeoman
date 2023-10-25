@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+h1{
+    box-sizing: border-box;
+    font-size: 48px;
+    height: 10vh;
+    margin: 0;
+    padding: 14px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+#cm {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+}
+
+#character {
+    box-sizing: border-box;
+    padding: 10px;
+    padding-top: 20px;
+    width: 13vw;
+    height: 90vh;
+    border-right: 1px solid gray;
+}
+
+#호두, #각청, #감우, #라이덴쇼군 {
+    box-sizing: border-box;
+    width: 240px;
+    font-size: 20px;
+}
+
+#호두:hover, #각청:hover, #감우:hover, #라이덴쇼군:hover {
+    cursor: pointer;
+}
+
+span {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+
+#rit {
+    box-sizing: border-box;
+    height: 90vh;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+
+#te {
+    display: flex;
+    justify-content: center;
+}
+
+#message {
+    height: 83vh;
+    width: 85vw
+}
+
+#전송 {
+    position: relative;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+textarea {
+    height: 40px;
+    width: 700px;
+    font-size: 20px;
+}
