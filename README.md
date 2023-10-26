@@ -5,7 +5,9 @@ PPT : https://www.miricanvas.com/v/12hkct1
 [kimyeoman-web (front-end)](https://github.com/DwarfAmil/kimyeoman-web)
 ---
 
-## 1일차
+<details>
+<summary><h2>1일차</h2></summary>
+
 ### 팀명 및 팀장
 - 팀명 : str (string)
 - 팀장 : 박형진
@@ -23,9 +25,13 @@ PPT : https://www.miricanvas.com/v/12hkct1
 - 생활코딩 flask
   - https://opentutorials.org/course/4904
 
+</details>
+
 ---
 
-## 2일차
+<details>
+<summary><h2>2일차</h2></summary>
+
 ### 오전 작업
 - 김유준 : 웹 프론트 강의 들으면서 html과 css로 test 웹 페이지 작성
 - 박형진 : chatGPT 3.5 turbo 모델 사용을 위한 test 코드 작성
@@ -42,9 +48,13 @@ PPT : https://www.miricanvas.com/v/12hkct1
 - oobabooga github
   - https://github.com/oobabooga/text-generation-webui
 
+</details>
+
 ---
 
-## 3일차
+<details>
+<summary><h2>3일차</h2></summary>
+
 ### 오전 작업
 - 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
 - 박형진 : llama2 모델을 사용하여 학습 및 테스트
@@ -57,9 +67,13 @@ PPT : https://www.miricanvas.com/v/12hkct1
 - oobabooga github
   - https://github.com/oobabooga/text-generation-webui
 
+</details>
+
 ---
 
-## 4일차
+<details>
+<summary><h2>4일차</h2></summary>
+
 ### 오전 작업
 - 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
 - 박형진 : 우바부가 api 제작 및 테스트 / FastAPI 로그인 기능 구현
@@ -79,9 +93,13 @@ PPT : https://www.miricanvas.com/v/12hkct1
 - oobabooga github
   - https://github.com/oobabooga/text-generation-webui
 
+</details>
+
 ---
 
-## 5일차
+<details>
+<summary><h2>5일차</h2></summary>
+
 ### 오전 작업
 - 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
 - 박형진 : Svelte로 로그인 및 회원가입 페이지 제작
@@ -100,9 +118,13 @@ PPT : https://www.miricanvas.com/v/12hkct1
 - 컬러팔레트
   - https://coolors.co/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
 
+</details>
+
 ---
 
-## 6일차
+<details>
+<summary><h2>6일차</h2></summary>
+
 ### 오전 작업
 - 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
 - 박형진 : DeepL 번역기 api 관련 테스트
@@ -123,9 +145,13 @@ PPT : https://www.miricanvas.com/v/12hkct1
 - DeepL api
   - https://www.deepl.com/ko/docs-api
 
+</details>
+
 ---
 
-## 7일차
+<details>
+<summary><h2>7일차</h2></summary>
+
 ### 오전 작업
 - 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
 - 박형진 : DeepL 번역기 api 관련 테스트 및 채팅 페이지 테스트
@@ -135,9 +161,34 @@ PPT : https://www.miricanvas.com/v/12hkct1
 ### 참고 사이트
 - 유노코딩 css
   - https://www.youtube.com/playlist?list=PLFeNz2ojQZjuRTQGNUf6ZTz8-YRLgFFvZ
-- 유노코딩 js 강의
+- 유노코딩 js
   - https://youtube.com/playlist?list=PLFeNz2ojQZjv41Q5cCw8blOpGTTrZS5PU&si=0QNQdnH_ILkmJ9kZ
 - 컬러팔레트
   - https://coolors.co/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
 - DeepL api
   - https://www.deepl.com/ko/docs-api
+
+</details>
+
+---
+
+<details>
+<summary><h2>8일차</h2></summary>
+
+### 오전 작업
+- 김유준 : 웹 프론트 강의 들으면서 채팅 페이지 제작
+- 박형진 : 채팅 페이지 제작 및 테스트
+### 오후 작업
+- 김유준 : 채팅 페이지 제작 및 테스트
+- 박형진 : 채팅 캐릭터 변환 및 데이터베이스
+### 참고 사이트
+- 유노코딩 js
+  - https://youtube.com/playlist?list=PLFeNz2ojQZjv41Q5cCw8blOpGTTrZS5PU&si=0QNQdnH_ILkmJ9kZ
+- 컬러팔레트
+  - https://coolors.co/edede9-d6ccc2-f5ebe0-e3d5ca-d5bdaf
+- fast campus
+  - https://www.youtube.com/watch?v=YWnWWLrFy08
+- ChatGPT 질문
+  - https://chat.openai.com
+
+</details>
