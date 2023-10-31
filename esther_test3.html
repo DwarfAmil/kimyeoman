@@ -11,34 +11,55 @@
         <h1>ESTHER</h1>
         <div id="cm">
             <div id="character">
-                <div id="호두">
-                    <img src="images/호두.jpg" title="호두" alt="호두">
+                <div id="hutao">
+                    <img src="images/호두.jpg" title="호두" alt="호두" class="liimg">
                     <span>호두</span>
                 </div>
-                <div id="각청"> 
-                    <img src="images/에스더 각청.jpg" title="각청" alt="각청">
+                <div id="keqing"> 
+                    <img src="images/에스더 각청.jpg" title="각청" alt="각청" class="liimg">
                     <span>각청</span>
                 </div>
-                <div id="감우">
-                    <img src="images/에스더 감우.jpg" title="감우" alt="감우">
+                <div id="gamyu">
+                    <img src="images/에스더 감우.jpg" title="감우" alt="감우" class="liimg">
                     <span>감우</span>
                 </div>
-                <div id="라이덴쇼군">
-                    <img src="images/에스더 라이덴쇼군.jpg" title="라이덴쇼군" alt="라이덴쇼군">
+                <div id="raiden">
+                    <img src="images/에스더 라이덴쇼군.jpg" title="라이덴쇼군" alt="라이덴쇼군" class="liimg">
                     <span>라이덴쇼군</span>
                 </div>
             </div>
             <div id="rit">
                 <div id="message">
-                    채팅창
+                    <div  id="hutao_hide">
+                        <h2 id="hutao2">호두</h2>
+                        <div class="chat" id=""mytext1>
+                        </div>
+                    </div>
+                    <div id="keqing_hide">
+                        <h2 id="keqing2">각청</h2>
+                        <div class="chat"></div>
+                    </div>
+                    <div id="gamyu_hide">
+                        <h2 id="gamyu2">감우</h2>
+                        <div class="chat"></div>
+                    </div>
+                    <div id="raiden_hide">
+                        <h2 id="raiden2">라이덴쇼군</h3>
+                        <div class="chat"></div>
+                    </div>
+                    
+                    <!-- <div>채팅창</div>
+                    <div id="채팅1">채팅</div>
+                    <div id="채팅2">채팅</div> -->
                 </div>
                 <div id="te">
                     <form action="exam.php" method="post">
-                        <textarea name="text" rows="1" cols="40"></textarea>
-                        <input type="button" value=">" id="전송">
+                        <textarea name="text" rows="1" cols="40" id="text"></textarea>
+                        <input type="button" value=">" id="button">
                     </form>
                 </div>
             </div>
         </div>
+        <script src="js_test.js"></script>
     </body>
 </html>

@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: #F0EDE5;
 }
 
 h1{
@@ -9,7 +10,7 @@ h1{
     margin: 0;
     padding: 14px;
     border-bottom: 1px solid gray;
-    text-align: center;
+    text-align: left;
 }
 
 #cm {
@@ -26,13 +27,13 @@ h1{
     border-right: 1px solid gray;
 }
 
-#호두, #각청, #감우, #라이덴쇼군 {
+#hutao, #keqing, #gamyu, #raiden {
     box-sizing: border-box;
     width: 240px;
     font-size: 20px;
 }
 
-#호두:hover, #각청:hover, #감우:hover, #라이덴쇼군:hover {
+#hutao:hover, #keqing:hover, #gamyu:hover, #raiden:hover {
     cursor: pointer;
 }
 
@@ -47,7 +48,7 @@ span {
     height: 90vh;
 }
 
-img {
+.liimg {
     width: 60px;
     height: 60px;
     border-radius: 40px;
@@ -59,8 +60,21 @@ img {
 }
 
 #message {
+    display: flex;
     height: 83vh;
-    width: 85vw
+    width: 85vw;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2 {
+    display: flex;
+    height: 100px;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 #전송 {
@@ -74,4 +88,57 @@ textarea {
     height: 40px;
     width: 700px;
     font-size: 20px;
+}
+
+.chat {
+    background-color: white;
+    height: 70vh;
+    width: 40vw
+
+}
+
+#hutao_hide, #keqing_hide, #gamyu_hide, #raiden_hide {
+    display: none;
+} 
+
+#채팅1 {
+    width: 100px;
+    height: 50px;
+    background-color: #C6D4E1;
+}
+#채팅2 {
+    width: 100px;
+    height: 50px;
+    background-color: #F4C8AA;
+}
+
+.msg {
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+#myimg {
+    position: relative;
+    left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+}
+
+#myname {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    height: 30px;
+}
+
+#mytext {
+    display: flex;
+    position: relative;
+    top: 30px;
+    height: 30px;
+    align-items: flex-end;
+    background-color: yellow;
 }
