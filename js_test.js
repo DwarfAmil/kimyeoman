@@ -15,6 +15,7 @@ const pimg = ['호두', '에스더 각청', '에스더 감우', '에스더 라�
 
 let chat = [[], [], [], []]
 
+
 hutao.addEventListener('click', function(){
     p[0].setAttribute('id', 'mytext1')
     hutao_hide.style.display = 'none'
@@ -23,7 +24,8 @@ hutao.addEventListener('click', function(){
     raiden_hide.style.display = 'none'
     hutao_hide.style.display = 'block'
     number = 0
-    console.log(number, '호두와의 채팅') 
+    console.log(number, '호두와의 채팅')
+    scr()
 })
 
 keqing.addEventListener('click', function(){
@@ -35,6 +37,7 @@ keqing.addEventListener('click', function(){
     keqing_hide.style.display = 'block'
     number = 1
     console.log(number, '각청과의 채팅')
+    scr()
 })
 
 gamyu.addEventListener('click', function(){
@@ -46,6 +49,7 @@ gamyu.addEventListener('click', function(){
     gamyu_hide.style.display = 'block'
     number = 2
     console.log(number, '감우와의 채팅')
+    scr()
 })
 
 raiden.addEventListener('click', function(){
@@ -57,6 +61,7 @@ raiden.addEventListener('click', function(){
     raiden_hide.style.display = 'block'
     number = 3
     console.log(number, '라이덴쇼군과의 채팅')
+    scr()
 })
 
 
@@ -106,7 +111,7 @@ const content = textarea.value.trim() // 텍스트 내용 복사
     const newTag = document.createElement('br') // 빈 br 태그 생성
     p[number].appendChild(newTag) // 생성된 br태그 채팅에 추가
 
-    
+
     addLog()
 }
 
@@ -124,16 +129,21 @@ textarea.addEventListener('keydown', function(event) {
 
 
 
-// 스크롤바 자동으로 내려가게 하기
-p[number].isScrollBottom = true
 
-p[number].addEventListener("scroll", (event) =>{
-    if(event.target.scrollHeight - event.target.scrollTop === event.target.clientHeight) {
-        p[number].isScrollBottom = true
-    } else {
-        p[number].isScrollBottom = false
-    }
-})
+// 스크롤바 자동으로 내려가게 하기
+function scr() {
+    p[number].isScrollBottom = true
+
+
+    p[number].addEventListener("scroll", (event) =>{
+        if(event.target.scrollHeight - event.target.scrollTop === event.target.clientHeight) {
+            p[number].isScrollBottom = true
+        } else {
+            p[number].isScrollBottom = false
+        }
+    })
+}
+
 
 const addLog = () => {
     const smsg = textarea.value
@@ -145,4 +155,4 @@ const addLog = () => {
     }
 }
 
-
+ 
