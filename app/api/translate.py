@@ -1,17 +1,18 @@
 import deepl
 from fastapi import APIRouter
+from pydantic import BaseModel
 
 router = APIRouter()
 
-auth_key = "API_KEY"
+auth_key = ""
 translator = deepl.Translator(auth_key)
 
 
-@router.post("/translate_ko_to_en")
-async def translate(text: str):
-    return translator.translate_text(text, target_lang="EN-US")
+class Text(BaseModel):
+    lang: str
+    text: str
 
 
-@router.post("/translate_en_to_ko")
-async def translate(text: str):
-    return translator.translate_text(text, target_lang="KO")
+@router.post("/translate")
+async def translate(text: Text):
+    return translator.translate_text(text.text, target_lang=text.lang)

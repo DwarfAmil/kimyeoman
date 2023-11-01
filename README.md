@@ -192,3 +192,17 @@ PPT : https://www.miricanvas.com/v/12hkct1
   - https://chat.openai.com
 
 </details>
+
+---
+
+<details>
+<summary><h2>9일차</h2></summary>
+
+### 오전 작업
+- 김유준 : 채팅 페이지 제작
+- 박형진 : 채팅 캐릭터 변환 및 데이터베이스
+### 오후 작업
+- 김유준 : 채팅 페이지 제작
+- 박형진 : 채팅 캐릭터 변환 및 데이터베이스
+
+</details>

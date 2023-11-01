@@ -4,11 +4,13 @@ from starlette.middleware.cors import CORSMiddleware
 
 from app.api.auth import router as auth_router
 from app.api.translate import router as translator_router
+from app.api.chat import router as chat_router
 
 app = FastAPI()
 
 app.include_router(auth_router, prefix="/auth", tags=["auth"])
 app.include_router(translator_router, prefix="/translator", tags=["translate"])
+app.include_router(chat_router, prefix="/chat", tags=["chat"])
 
 app.add_middleware(
     CORSMiddleware,
