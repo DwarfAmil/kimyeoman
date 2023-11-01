@@ -9,6 +9,7 @@ const raiden = document.getElementById('raiden')
 
 const p = document.getElementsByClassName('chat')
 
+
 let number = 0
 const pimg = ['호두', '에스더 각청', '에스더 감우', '에스더 라이덴쇼군']
 
@@ -62,8 +63,11 @@ raiden.addEventListener('click', function(){
 const textarea = document.getElementById('text')
 const button = document.getElementById('button')
 
-button.addEventListener('click', () => {
-    const content = textarea.value.trim() // 텍스트 내용 복사
+
+
+// textarea에 텍스트 입력하고 이벤트를 줬을때 화면에 띄우는 함수
+function send(){
+const content = textarea.value.trim() // 텍스트 내용 복사
     
     textarea.value = '' // 채팅이 전송된 후 내용 제거
 
@@ -101,5 +105,44 @@ button.addEventListener('click', () => {
     // 공백 생성
     const newTag = document.createElement('br') // 빈 br 태그 생성
     p[number].appendChild(newTag) // 생성된 br태그 채팅에 추가
+
+    
+    addLog()
+}
+
+
+button.addEventListener('click', () => {
+    send()
 })
-// <h1 id='제목'>내용</h1>
+
+
+textarea.addEventListener('keydown', function(event) {
+    if(event.key === 'Enter') {
+        send()
+    }
+})
+
+
+
+// 스크롤바 자동으로 내려가게 하기
+p[number].isScrollBottom = true
+
+p[number].addEventListener("scroll", (event) =>{
+    if(event.target.scrollHeight - event.target.scrollTop === event.target.clientHeight) {
+        p[number].isScrollBottom = true
+    } else {
+        p[number].isScrollBottom = false
+    }
+})
+
+const addLog = () => {
+    const smsg = textarea.value
+
+    p[number].innerHTML += `${smsg}\r\n`
+
+    if(p[number].isScrollBottom) {
+        p[number].scrollTop = p[number].scrollHeight
+    }
+}
+
+
