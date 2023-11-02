@@ -10,7 +10,7 @@ userDBCursor.execute("""
     CREATE TABLE IF NOT EXISTS user_data(
         id TEXT UNIQUE NOT NULL,
         passwd TEXT NOT NULL,
-        token TEXT UNIQUE NOT NULL)
+        token TEXT NOT NULL)
     """)
 
 chatDBCursor.execute("""

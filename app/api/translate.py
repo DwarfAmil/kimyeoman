@@ -1,10 +1,15 @@
+import os
+
+from dotenv import load_dotenv
 import deepl
 from fastapi import APIRouter
 from pydantic import BaseModel
 
 router = APIRouter()
 
-auth_key = ""
+load_dotenv()
+
+auth_key = os.environ.get("DEEPL_API_KEY")
 translator = deepl.Translator(auth_key)
 
 

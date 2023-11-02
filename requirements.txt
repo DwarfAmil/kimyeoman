@@ -5,3 +5,4 @@ pydantic
 starlette
 deepl
 bcrypt
+python-dotenv

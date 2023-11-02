@@ -11,6 +11,10 @@ class Chat(BaseModel):
     chat: str
 
 
+class Char(BaseModel):
+    char: int
+
+
 @router.post("/upload")
 async def upload(chat: Chat):
     if chatDB.execute("SELECT * FROM chat_data WHERE id=?", (chat.char,)).fetchone() is not None:
@@ -23,5 +27,5 @@ async def upload(chat: Chat):
 
 
 @router.post("/download")
-async def download(char: int):
-    return chatDB.execute("SELECT * FROM chat_data WHERE id=?", (char,)).fetchone()[1]
+async def download(char: Char):
+    return {"chat": chatDB.execute("SELECT * FROM chat_data WHERE id=?", (char.char,)).fetchone()[1]}
